@@ -2,8 +2,8 @@ const request = require('request');
 const HtmlTableToJson = require('html-table-to-json');
 require('console.table');
 
-// Get lists for the latest year.
-const year = process.argv[2] || 7;
+// Get lists for the latest year. E.g., 8th item in array is 2019.
+const year = process.argv[2] || 8;
 const url = `https://www.opm.gov/policy-data-oversight/pay-leave/federal-holidays/`;
 
 request(url, function (error, response, body) {
