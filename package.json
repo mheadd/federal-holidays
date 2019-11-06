@@ -1,0 +1,16 @@
+{
+  "name": "federal-holidays",
+  "version": "1.0.0",
+  "description": "Quickly get a list of federal holidays from the OPM website",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "author": "Mark Headd",
+  "license": "ISC",
+  "dependencies": {
+    "console.table": "^0.10.0",
+    "html-table-to-json": "^0.4.1",
+    "request": "^2.88.0"
+  }
+}
