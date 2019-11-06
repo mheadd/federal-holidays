@@ -16,7 +16,7 @@ Quickly display a list of federal holidays from the command line.
 ~$ node path/to/federal-holidays/index.js
 ```
 
-Alternatively, you can set this up a a bash alias for convenience. if you installed usin the `-g` flag, then: 
+Alternatively, you can set this up a bash alias for convenience. if you installed usin the `-g` flag, then: 
 
 Install globally
 ```bash
