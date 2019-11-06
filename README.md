@@ -21,9 +21,10 @@ Alternatively, you can set this up a a bash alias for convenience. if you instal
 Install globally
 ```bash
 ~$ npm install -g https://github.com/mheadd/federal-holidays.git 
+~$ chmod +x /usr/local/lib/node_modules/federal-holidays/index.js
 ```
 
 Then, in your bash profile:
 ```bash
-alias holidays='/usr/local/lib/node_modules/federal-holidays/index.js'
+alias holidays='node /usr/local/lib/node_modules/federal-holidays/index.js'
 ```
