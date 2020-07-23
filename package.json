@@ -10,7 +10,7 @@
   "license": "ISC",
   "dependencies": {
     "console.table": "^0.10.0",
-    "html-table-to-json": "^0.4.1",
+    "html-table-to-json": "^1.0.0",
     "request": "^2.88.0"
   }
 }
